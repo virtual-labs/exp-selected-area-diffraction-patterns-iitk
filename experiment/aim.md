@@ -1,1 +1,1 @@
-### Aim of the experiment
+### To understand the type of diffraction pattern and how artefacts can be interpreted using SADP.

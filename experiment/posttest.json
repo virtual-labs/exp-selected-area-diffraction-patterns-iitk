@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which type of electron interaction is primarily responsible for the contrast seen in HRTEM images?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Elastic scattering",
+        "b": "Inelastic scattering",
+        "c": "Electron absorption",
+        "d": "Electron emission"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,29 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In HAADF-TEM, what does an increase in the atomic number (Z) of the elements in the sample typically result in?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A decrease in image brightness",
+        "b": "An increase in image brightness",
+        "c": "No change in image brightness",
+        "d": "A decrease in image contrast"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a major advantage of HRTEM over Scanning Electron Microscopy (SEM)?",
+      "answers": {
+        "a": "Better surface detail",
+        "b": "Higher depth of field",
+        "c": "Atomic-level resolution",
+        "d": "Ability to analyze larger samples"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",

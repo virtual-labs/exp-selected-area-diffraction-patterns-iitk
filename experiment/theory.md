@@ -5,4 +5,4 @@ As diffraction reflects the crystal symmetry, any defects present in the crystal
 <img src ="images/Picture2.png"><br>
 Figure 2. SADP pattern from stacking faults in Hexagonal NbTiCrZrB2 sample.<br>
 <img src ="images/Picture3.png"><br>
-Figure 7. SADP pattern from twins in FCC-CoCrFeMnNiSi0.02 sample.<br>
+Figure 3. SADP pattern from twins in FCC-CoCrFeMnNiSi0.02 sample.<br>

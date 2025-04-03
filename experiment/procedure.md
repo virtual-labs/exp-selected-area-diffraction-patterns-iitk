@@ -19,7 +19,7 @@
 •	Check for symmetrical diffraction spots in the Ronchigram or diffraction pattern preview.<br><br>
 
 <b>Step 6: Insert the Selected Area Aperture (SAA)</b><br>
-•	Switch the microscope to diffraction mode.
+•	Switch the microscope to diffraction mode.<br>
 •	Insert the selected area aperture into the image plane to limit the region contributing to diffraction.<br>
 •	Choose an appropriate aperture size (smaller for localized analysis, larger for averaging over a region).<br><br>
 

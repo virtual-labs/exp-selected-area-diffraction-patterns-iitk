@@ -10,7 +10,7 @@
 •	Set the microscope to parallel illumination mode using the condenser lens.<br>
 •	Adjust the beam spread to ensure even illumination on the sample.<br><br>
 
-<b>Step 4: Locate the Region of Interest<b><br>
+<b>Step 4: Locate the Region of Interest</b><br>
 •	Use bright-field (BF) or dark-field (DF) imaging to find a defect-free region or an area of interest.<br>
 •	Focus the image properly to ensure the region is well-defined.<br><br>
 

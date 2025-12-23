@@ -214,26 +214,7 @@
           </select>
         </div>
 
-        <!-- defect structure -->
-
-        <!-- magnification slider -->
-        <!-- <div class="boxx mt-2">
-          <label for="formControlRange">Magnification</label>
-          <div class="row">
-            <div class="col-9">
-              <div id="mslider" class="mt-3">
-                <div
-                  class="custom-handle ui-slider-handle"
-                  style="padding: 0px"
-                ></div>
-              </div>
-            </div>
-            <div class="col-3">
-              <button id="setmag" class="button-91 w-100" disabled>Set</button>
-            </div>
-          </div>
-        </div> -->
-        <!-- magnification slider end -->
+    
       </div>
       <!-- col 1 end -->
 
@@ -243,8 +224,7 @@
         id="adjust-machine"
         style="position: relative"
       >
-        <!-- simulation/machine -->
-        <!-- <img src="../images/bg/tem_back.png" alt="TEM back" width="400" height="600"> -->
+       
 
         <div class="panel-2">
           <!-- parts -->
@@ -425,6 +405,17 @@
 
       <!-- col 3 start -->
       <div class="card col-xl-5 themed-grid-col">
+         <div class="alert alert-success d-flex align-items-center" role="alert">
+          <svg
+            class="bi flex-shrink-0 me-2"
+            style="height: 2rem; width: 2rem"
+            role="img"
+            aria-label="Info:"
+          >
+            <use xlink:href="#info-fill" />
+          </svg>
+          <div>Please follow the instructions carefully to get desire result.</div>
+        </div>
         <!-- image formed output -->
         <div class="col-12" id="output">
           <div class="panel">
@@ -460,21 +451,28 @@
                 src="../images/outputs/stackingFault.png"
               />
             </figure>
+             <figure data-zoom data-zoom-max="5">
+              <img
+                id="outImage5"
+                style="display: none"
+                class="w-100"
+                src="../images/outputs/twin poly.png"
+              />
+            </figure>
+             <figure data-zoom data-zoom-max="5">
+              <img
+                id="outImage6"
+                style="display: none"
+                class="w-100"
+                src="../images/outputs/stack poly.png"
+              />
+            </figure>
+          
           </div>
         </div>
         <!-- end of image formed output -->
         <!-- theory -->
-        <div class="alert alert-success d-flex align-items-center" role="alert">
-          <svg
-            class="bi flex-shrink-0 me-2"
-            style="height: 2rem; width: 2rem"
-            role="img"
-            aria-label="Info:"
-          >
-            <use xlink:href="#info-fill" />
-          </svg>
-          <div>Please follow the instructions carefully. Handle with care.</div>
-        </div>
+       
         <!-- end of theory code -->
         <div style="text-align: center; margin-top: 20px;">
           <button id="downloadBtn" class="btn btn-primary" onclick="downloadVisibleImage()">Download Image</button>

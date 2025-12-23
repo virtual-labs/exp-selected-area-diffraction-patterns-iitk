@@ -360,31 +360,61 @@ $(function () {
   });
 });
 
-function changeImage() {
-  const selectElement = document.getElementById("position2");
-  const defectImage = document.getElementById("defectImage");
-  const img1 = document.getElementById("outImage1");
-  const img2 = document.getElementById("outImage2");
-  const img3 = document.getElementById("outImage3");
-  const img4 = document.getElementById("outImage4");
-  const selectedValue = selectElement.value;
-  console.log(selectedValue);
-
-  // Update the image source based on the selected defect
-  if (selectedValue == "3") {
-    img1.style.display = "none";
-    img2.style.display = "none";
-    img4.style.display = "none";
-    img3.style.display = "block";
-  } else if (selectedValue == "4") {
-    img1.style.display = "none";
-    img2.style.display = "none";
-    img3.style.display = "none";
-    img4.style.display = "block";
+function change() {
+  showToast("Switch on the beam");
+  if (english) {
+    type("Now switch on the beam.");
+    textToSpeech("Try to switch on the beam now.");
+  } else {
+    type("बीम को चालू करने का प्रयास करें|");
+    textToSpeech("बीम को चालू करने का प्रयास करें", "hi-IN");
   }
 
-  // Show or hide the image based on the selection
-  defectImage.style.display = selectedValue ? "block" : "none";
+  matSelected = document.getElementById("position").value; // 1 = Single, 2 = Poly
+
+  // Reset all images
+  hideAllImages();
+
+  // Show initial output image for material type
+  if (matSelected == "1") {
+    document.getElementById("outImage1").style.display = "block"; // Single crystal dot/ring
+  } else if (matSelected == "2") {
+    document.getElementById("outImage2").style.display = "block"; // Poly crystal ring
+  }
+
+  $("#on").prop("disabled", false);
+  $("#setav").prop("disabled", true);
+  $("#avslider").slider("option", "disabled", true);
+}
+
+function changeImage() {
+  const matValue = document.getElementById("position").value; // 1 or 2
+  const defectValue = document.getElementById("position2").value; // 3 or 4
+
+  hideAllImages(); // Always reset first
+
+  if (matValue == "1") {
+    // Single crystalline
+    if (defectValue == "3") document.getElementById("outImage3").style.display = "block";
+    if (defectValue == "4") document.getElementById("outImage4").style.display = "block";
+  }
+
+  if (matValue == "2") {
+    // Poly crystalline
+    if (defectValue == "3") document.getElementById("outImage5").style.display = "block";
+    if (defectValue == "4") document.getElementById("outImage6").style.display = "block";
+  }
+}
+
+function hideAllImages() {
+  const imgs = [
+    "outImage1", "outImage2", "outImage3",
+    "outImage4", "outImage5", "outImage6"
+  ];
+
+  imgs.forEach(id => {
+    document.getElementById(id).style.display = "none";
+  });
 }
 
 function downloadVisibleImage() {
@@ -452,6 +482,7 @@ function randEx(min, max) {
 }
 
 function drawBeam() {
+  drawBeam2();
   ctx.beginPath();
 
   beamWidth = Math.sin((beamy * 3.14) / 160) * 7;
@@ -499,25 +530,21 @@ function drawBeam() {
       );
     }
     showToast("Set imaging mode");
+    outputImage();
 
-    if (item == "zebrafish") {
-      $("#outImage2").hide();
-      $("#outImage3").hide();
-      $("#outImage1").show(500);
-      showToast("Image 1 Generated successfully", 2);
-    } else if (item == "metal") {
-      $("#outImage1").hide();
-      $("#outImage3").hide();
-      $("#outImage2").show(500);
-      showToast("Image 2 Generated successfully", 2);
-    } else if (item == "ceramic") {
-      $("#outImage1").hide();
-      $("#outImage2").hide();
-      $("#outImage3").show(500);
-      showToast("Image 3 Generated successfully", 2);
-    }
+
+
+
+
   }
 }
+function outputImage() {
+  const defectValue = document.getElementById("position").value;
+      if (defectValue == "1") document.getElementById("outImage2").style.display = "block";
+    if (defectValue == "2") document.getElementById("outImage1").style.display = "block";
+  
+}
+
 
 function drawBeam2() {
   ctx2.beginPath();
@@ -548,13 +575,6 @@ imageY.addEventListener("dragstart", (e) => {
   e.dataTransfer.setData("text/plain", "dragging-y"); // Allow image Y to be draggable
 });
 
-// imageA.addEventListener("dragstart", (e) => {
-//   e.dataTransfer.setData("text/plain", "dragging-a"); // Allow image A to be draggable
-// });
-
-// imageB.addEventListener("dragstart", (e) => {
-//   e.dataTransfer.setData("text/plain", "dragging-b"); // Allow image B to be draggable
-// });
 
 imageX.addEventListener("dragover", (e) => {
   e.preventDefault();
@@ -576,27 +596,7 @@ imageX.addEventListener("drop", (e) => {
     $("#insertButton").prop("disabled", false);
     document.getElementById("sample").innerHTML = "";
   }
-  //  else if (
-  //   draggedItem === "dragging-a" &&
-  //   isImageYDropped === false &&
-  //   removeButtonclicked == true
-  // ) {
-  //   imageA.style.visibility = "hidden";
-  //   isImageYDropped = true; // Set the flag when image-_ is dropped
-  //   item = "metal";
-  //   imageX.src = "../images/parts/sh2.png"; // Replace image X with image Z when any image is dropped onto it
-  //   $("#insertButton").prop("disabled", false);
-  // } else if (
-  //   draggedItem === "dragging-b" &&
-  //   isImageYDropped === false &&
-  //   removeButtonclicked == true
-  // ) {
-  //   imageB.style.visibility = "hidden";
-  //   isImageYDropped = true; // Set the flag when image-_ is dropped
-  //   item = "ceramic";
-  //   imageX.src = "../images/parts/sh3.png"; // Replace image X with image Z when any image is dropped onto it
-  //   $("#insertButton").prop("disabled", false);
-  // }
+
   else {
     showToast("Please follow the instructions", 1);
   }

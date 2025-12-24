@@ -1,4 +1,26 @@
-<b>Step 1: Sample Preparation</b><br>
+
+<b>Step 1:</b> Select the preferred Language (English or Hindi) from the language selection option.
+
+<b>Step 2:</b> Switch on the TEM machine and allow the system to initialize.
+
+<b>Step 3:</b> Click on the <b>Remove Sample Holder</b> button to safely remove the sample holder from the machine.
+
+<b>Step 4:</b> Drag and drop the sample onto the <b>Sample Holder</b>.
+
+<b>Step 5:</b> Click on the <b>Insert Sample Holder</b> button to reinsert the sample holder into the TEM.
+
+<b>Step 6:</b> Set the <b>Vacuum Level</b> to <b>LV</b> and click <b>Set</b> to apply the configuration.
+
+<b>Step 7:</b> Adjust the <b>Accelerating Voltage</b> within the range of <b>100 kV to 200 kV</b>, then click <b>Set</b>.
+
+<b>Step 8:</b> Select the required <b>Material</b> for analysis.
+
+<b>Step 9:</b> Switch <b>ON the Electron Beam</b> to begin observation.
+
+<b>Step 10:</b> Choose the appropriate <b>Defect Type</b> to observe the corresponding image on the <b>right-side image panel</b>.
+
+
+<!-- <b>Step 1: Sample Preparation</b><br>
 •	Ensure the sample is electron transparent (~100 nm thick) to allow proper diffraction.<br>
 •	Mount the sample onto a TEM grid and place it in the specimen holder.<br><br>
 

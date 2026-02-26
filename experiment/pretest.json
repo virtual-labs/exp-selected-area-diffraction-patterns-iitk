@@ -9,12 +9,6 @@
         "c": "Selecting a diffracted beam slightly off the Bragg condition to highlight defects",
         "d": "Blocking all beams except for the scattered electrons"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -26,13 +20,29 @@
         "c": "Atomic number (Z) contrast",
         "d": "Phase contrast"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " An SADP with diffuse halos instead of discrete rings or spots suggests that the sample is:",
+      "answers": {
+        "a": "Amorphous",
+        "b": "Single-crystalline",
+        "c": "Twin-structured",
+        "d": "Free of defects"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If an SADP exhibits splitting of diffraction spots, this is usually caused by:",
+      "answers": {
+        "a": "Stacking faults",
+        "b": "Twinning",
+        "c": "High camera length",
+        "d": "Amorphous structure"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

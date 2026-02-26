@@ -9,12 +9,6 @@
         "c": "Electron absorption",
         "d": "Electron emission"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -25,12 +19,6 @@
         "b": "An increase in image brightness",
         "c": "No change in image brightness",
         "d": "A decrease in image contrast"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -43,11 +31,27 @@
         "c": "Atomic-level resolution",
         "d": "Ability to analyze larger samples"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Systematic absences in a diffraction pattern can help determine:",
+      "answers": {
+        "a": "The sample thickness",
+        "b": "The crystal symmetry and space group",
+        "c": "The presence of amorphous regions",
+        "d": "The degree of electron beam damage"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens to the SADP when a sample contains high-density dislocations?",
+      "answers": {
+        "a": "The diffraction spots become sharper",
+        "b": "The diffraction spots are replaced by concentric rings",
+        "c": "The diffraction spots become diffused or elongated",
+        "d": "The diffraction pattern remains unchanged"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

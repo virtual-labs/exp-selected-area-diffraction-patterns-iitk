@@ -19,8 +19,10 @@ As diffraction reflects the crystal symmetry, any defects present in the crystal
 <b>Stacking Faults: </b><br>
 Stacking Faults create a localized shift in atomic positions, they introduce an additional phase shift in the scattered electron waves, causing diffuse intensity and streaking in the diffraction pattern along the reciprocal lattice vector perpendicular to the fault plane. The length of the streaks depends on the fault density—higher stacking fault densities result in more pronounced streaking. Whereas, in reciprocal space, twinning leads to split or elongated diffraction spots due to the superposition of two closely related but slightly misaligned lattice orientations. This effect generates streaks in specific crystallographic directions corresponding to the twin plane. <br>
 <img src ="images/img_1.png"><br>
+<b>Figure 3.</b>  Schematic representation of scattering <br><br>
 
 <b>Indexing of SADP: </b>Indexing a Selected Area Diffraction Pattern (SADP) is the process of identifying the crystallographic planes and zone axis that correspond to the observed diffraction spots. The key steps involved in indexing an SADP are:<br>
+
 
 •	<b>Identify the Zone Axis: </b>The zone axis is the direction of the incident electron beam relative to the crystal lattice. In a well-aligned SADP, the zone axis corresponds to the center of the diffraction pattern, and all diffraction spots represent planes perpendicular to it.<br>
 

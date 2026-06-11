@@ -1,0 +1,93 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which type of electron interaction is primarily responsible for the contrast seen in HRTEM images?",
+      "answers": {
+        "a": "Elastic scattering",
+        "b": "Inelastic scattering",
+        "c": "Electron absorption",
+        "d": "Electron emission"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In HAADF-TEM, what does an increase in the atomic number (Z) of the elements in the sample typically result in?",
+      "answers": {
+        "a": "A decrease in image brightness",
+        "b": "An increase in image brightness",
+        "c": "No change in image brightness",
+        "d": "A decrease in image contrast"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a major advantage of HRTEM over Scanning Electron Microscopy (SEM)?",
+      "answers": {
+        "a": "Better surface detail",
+        "b": "Higher depth of field",
+        "c": "Atomic-level resolution",
+        "d": "Ability to analyze larger samples"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Systematic absences in a diffraction pattern can help determine:",
+      "answers": {
+        "a": "The sample thickness",
+        "b": "The crystal symmetry and space group",
+        "c": "The presence of amorphous regions",
+        "d": "The degree of electron beam damage"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens to the SADP when a sample contains high-density dislocations?",
+      "answers": {
+        "a": "The diffraction spots become sharper",
+        "b": "The diffraction spots are replaced by concentric rings",
+        "c": "The diffraction spots become diffused or elongated",
+        "d": "The diffraction pattern remains unchanged"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "A diffraction pattern contains spots indexed as (220) and (002). Which zone axis satisfies both reflections?",
+      "answers": {
+        "a": "[001]",
+        "b": "[110]",
+        "c": "[111]",
+        "d": "[100]"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "Which diffraction feature is most indicative of stacking faults?",
+      "answers": {
+        "a": "Missing reflections",
+        "b": "Concentric rings",
+        "c": "Diffuse streaking between spots",
+        "d": "Uniform spot broadening"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a cubic crystal, two diffraction spots are measured with d-spacings of: <br> d<sub>1</sub> = 2.03Å <br> d<sub>2</sub> = 1.43Å <br> The ratio d<sub>1</sub>/d<sub>2</sub> = 1.42. Which pair of planes is most likely represented? ",
+      "answers": {
+        "a": "(100) and (110)",
+        "b": "(111) and (200)",
+        "c": "(220) and (311)",
+        "d": "(200) and (222)"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

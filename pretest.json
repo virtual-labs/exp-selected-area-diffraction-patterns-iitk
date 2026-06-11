@@ -1,0 +1,49 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following best describes the process of WBDF imaging in TEM?",
+      "answers": {
+        "a": "Using the direct beam to form the image",
+        "b": "Aligning the electron beam with a zone axis",
+        "c": "Selecting a diffracted beam slightly off the Bragg condition to highlight defects",
+        "d": "Blocking all beams except for the scattered electrons"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary contrast mechanism in HAADF-TEM?",
+      "answers": {
+        "a": "Electron absorption",
+        "b": "Electron diffraction",
+        "c": "Atomic number (Z) contrast",
+        "d": "Phase contrast"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " An SADP with diffuse halos instead of discrete rings or spots suggests that the sample is:",
+      "answers": {
+        "a": "Amorphous",
+        "b": "Single-crystalline",
+        "c": "Twin-structured",
+        "d": "Free of defects"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If an SADP exhibits splitting of diffraction spots, this is usually caused by:",
+      "answers": {
+        "a": "Stacking faults",
+        "b": "Twinning",
+        "c": "High camera length",
+        "d": "Amorphous structure"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

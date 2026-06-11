@@ -77,7 +77,7 @@ Using the zone law:<br>
 hu + kv + lw = 0<br><br>
 
 for both reflections gives:<br>
-[1$\bar{1}$1]<br><br>
+[1̅11]<br><br>
 
 as the zone axis.
 

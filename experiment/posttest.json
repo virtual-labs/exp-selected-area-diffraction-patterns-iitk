@@ -55,6 +55,39 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+     {
+      "question": "A diffraction pattern contains spots indexed as (220) and (002). Which zone axis satisfies both reflections?",
+      "answers": {
+        "a": "[001]",
+        "b": "[110]",
+        "c": "[111]",
+        "d": "[100]"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "Which diffraction feature is most indicative of stacking faults?",
+      "answers": {
+        "a": "Missing reflections",
+        "b": "Concentric rings",
+        "c": "Diffuse streaking between spots",
+        "d": "Uniform spot broadening"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a cubic crystal, two diffraction spots are measured with d-spacings of: <br> d<sub>1</sub> = 2.03Å <br> d<sub>2</sub> = 1.43Å <br> The ratio d<sub>1</sub>/d<sub>2</sub> = 1.42. Which pair of planes is most likely represented? ",
+      "answers": {
+        "a": "(100) and (110)",
+        "b": "(111) and (200)",
+        "c": "(220) and (311)",
+        "d": "(200) and (222)"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     }
   ]
 }

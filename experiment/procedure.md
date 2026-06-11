@@ -1,3 +1,4 @@
+<b>Simulation Procedure : </b><br><br>
 
 <b>Step 1:</b> Select the preferred Language (English or Hindi) from the language selection option.
 
@@ -19,8 +20,9 @@
 
 <b>Step 10:</b> Choose the appropriate <b>Defect Type</b> to observe the corresponding image on the <b>right-side image panel</b>.
 
+<b>Laboratory Procedure : </b><br><br>
 
-<!-- <b>Step 1: Sample Preparation</b><br>
+<b>Step 1: Sample Preparation</b><br>
 •	Ensure the sample is electron transparent (~100 nm thick) to allow proper diffraction.<br>
 •	Mount the sample onto a TEM grid and place it in the specimen holder.<br><br>
 

@@ -1,24 +1,25 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Mechanical Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Characterization of Materials
+<b> Experiment|     <b> Interpretation of Selected area Diffraction Patterns (spots vs. ring, effect of defect structure)
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+To understand the type of diffraction pattern and how artefacts can be interpreted using SADP.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Krishanu Biswas 
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  IIT Kanpur
+<b> Email id|     <b>  kbiswas@iitk.ac.in
+<b> Department |  Mechanical Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Adarsh Maurya | Student | Computer Science | BU Jhansi | adarshmsd1@gmail.com
+2 | Saumya Ranjan Jha | Student | MSE  |  IIT Kanpur | saumyaranjanjha@gmail.com
+3 | Khushboo Singh |  | MSE  |  IIT Kanpur | skhushboo@iitk.ac.in
